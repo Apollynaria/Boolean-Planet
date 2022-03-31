@@ -1,0 +1,4530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1365</width>
+    <height>826</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>cheeseusaceu</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+  background-color: #18011b
+}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <family>XDRA Heavy</family>
+        <pointsize>26</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget{
+	font: 
+}</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <property name="styleSheet">
+        <string notr="true">#page {
+background-color: #18011b;
+background-image: url(:/images/1.png)
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+    margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#exit{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#exit:hover{
+  background-color: #ff3c36;
+}
+QPushButton#exit:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_13">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>48</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Планета булевых &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;функций&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="play">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>55</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>    НАЧАТЬ    </string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="exit">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>55</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>    ВЫХОД    </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_0">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#page_0 {
+background-color: #18011b;
+background-image: url(:/images/1.png)
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+    margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#menu_exit{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#menu_exit:hover{
+  background-color: #ff3c36;
+}
+QPushButton#menu_exit:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#pushButton{
+  background-color: #fa428d;
+  color: #fff;
+} </string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>80</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>  ВЫБОР ЗАДАНИЯ  </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="leftMargin">
+           <number>50</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>50</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>20</number>
+          </property>
+          <item row="6" column="2">
+           <widget class="QPushButton" name="menu9go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   9 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QPushButton" name="menu8go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   8 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="menu6go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   6 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="2">
+           <widget class="QPushButton" name="menu12go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>  12 задание  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="menu7go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   7 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="menu3go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   3 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="menu2go">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   2 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="1">
+           <widget class="QPushButton" name="menu_exit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>36</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string>НАЗАД</string>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QPushButton" name="menu10go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>  10 задание  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="menu5go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   5 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="menu4go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>   4 задание   </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="menu1go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string>   1 задание   </string>
+            </property>
+            <property name="autoExclusive">
+             <bool>false</bool>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QPushButton" name="menu11go">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>  11 задание  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_1">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#page_1 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+#Line1{
+display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #18011b;
+}
+
+#ans1{
+ color: #fff;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu1{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu1:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu1:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#pushButton{
+  background-color: #fa428d;
+  color: #fff;
+} </string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>36</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Генерация булевой функции&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;от n аргументов&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="ans1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>36</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;ANS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="2" column="2">
+             <widget class="QPushButton" name="pushButton_backtomenu1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>100</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>XDRA Heavy</family>
+                <pointsize>33</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>  МЕНЮ  </string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QPushButton" name="pushButton_start1">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>100</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>XDRA Heavy</family>
+                <pointsize>33</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>  OK  </string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLineEdit" name="Line1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>100</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>XDRA Heavy</family>
+                <pointsize>48</pointsize>
+               </font>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" colspan="3">
+             <widget class="QLabel" name="label_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777214</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>XDRA Heavy</family>
+                <pointsize>26</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fec959;&quot;&gt;Введите число и нажмите кнопку ОК&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#page_2 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+QLineEdit{
+
+	box-sizing: border-box;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #18011b;
+}
+
+#ans2{
+ color: #fff;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+
+	color: #2a52be;
+    margin: 10 px 5 px 10 px 5 px;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu2{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu2:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu2:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QRadioButton {
+    color:                  white;
+}
+
+QRadioButton::indicator {
+    width:                  22 px;
+    height:                 22 px;
+    border-radius:          15px;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       #fa428d;
+    border:                 4px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:rgba(0, 0, 0, 0.0);
+    border:                 4px solid white;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <property name="leftMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Нахождение остаточной булевой функции&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="ans2">
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>ANS</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fecd4f;&quot;&gt;Номер аргумента&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fecd4f;&quot;&gt;Булева функция&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QPushButton" name="pushButton_start2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>ОК</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="Line2_function">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>22</pointsize>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3" alignment="Qt::AlignHCenter">
+           <widget class="QPushButton" name="pushButton_backtomenu2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>    МЕНЮ    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3" alignment="Qt::AlignHCenter">
+           <widget class="QRadioButton" name="radioButton_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>1 остаточная</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="Line2_arg">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>22</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QRadioButton" name="radioButton_0">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>0 остаточная</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <property name="styleSheet">
+        <string notr="true">#page_3 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+#QLabel{
+
+  color: #fff;
+
+}
+
+QLineEdit{
+
+	box-sizing: border-box;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #18011b;
+    margin: 15px 15px 15px 0;
+}
+
+#ans3{
+ color: #fff;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+
+	color: #2a52be;
+    padding: 0 20px;
+	margin: 0 15px 15px 0;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu3{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu3:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu3:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Вывод функции по известным &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;остаточным от n-го аргумента&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="ans3">
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>ANS</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_3_arg">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fecd4f;&quot;&gt;Номер аргумента&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_3_null_ost">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fecd4f;&quot;&gt;Нулевая остаточная&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="QPushButton" name="pushButton_backtomenu3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>    МЕНЮ    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_3_ed_ost">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fecd4f;&quot;&gt;Единичная остаточная&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0" colspan="3">
+           <widget class="QPushButton" name="pushButton_start3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>OK</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineEdit_3_ed_ost">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>22</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineEdit_3_arg">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>22</pointsize>
+             </font>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="3" alignment="Qt::AlignVCenter">
+           <widget class="QLineEdit" name="lineEdit_3_null_ost">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>22</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <property name="styleSheet">
+        <string notr="true">#page_4 {
+   background-color: #18011b;
+   color: #fff;
+   background-image: url(:/images/1.png)
+}
+
+#QLabel{
+  color: #fff;
+}
+
+#ans4:enabled{
+  color: #fa428d;
+}
+
+#label_4_function{
+ color: #fff;
+}
+
+QPushButton:enabled {
+    display: inline-block;	
+	box-sizing: border-box;
+	
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+
+	color: #2a52be;
+    padding: 0 20px;
+	margin: 0 15px 15px 0;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:enabled:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:enabled:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:disabled {
+	background-color: rgba(255, 255, 255, 0);
+    color:  rgba(255, 255, 255, 0);
+}
+QPushButton#pushButton_backtomenu4:enabled{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu4:enabled:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu4:enabled:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#restart4:enabled{
+   background-color: #ffd56b;
+   color: #ff7538;
+}
+QPushButton#restart4:enabled:hover {
+	background-color: #AAAAAA;
+    color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Узнайте имя функции&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4_function">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>48</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;ANS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_4_0">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>Константа 0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_4_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Отрицание обратной
+импликации</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_4_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Стрелка Пирса</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="pushButton_4_12">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Отрицание первого
+аргумента</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_4_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Конъюнкция</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="pushButton_4_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Функция, равная
+второму аргументу</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="pushButton_4_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Эквивалентность</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="pushButton_4_13">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Импликация</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_4_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Отрицание 
+импликации</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_4_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Сложение</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="pushButton_4_10">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Отрицание второго
+аргумента</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="pushButton_4_14">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Штрих Шеффера</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pushButton_4_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Функция, равная 
+первому аргументу</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="pushButton_4_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Дизъюнкция</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="pushButton_4_11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Обратная 
+импликация</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QPushButton" name="pushButton_4_15">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Константа 1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="pushButton_backtomenu4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>МЕНЮ</string>
+            </property>
+            <property name="autoExclusive">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="restart4">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>ПРОДОЛЖИТЬ</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="ans4">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>24</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Неверно! Правильный ответ: Функция, равная первому аргументу&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_5">
+       <property name="font">
+        <font>
+         <pointsize>26</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#page_5 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+QGroupBox{
+	color: #fecd4f;
+	border: 4px solid white;
+}
+
+#label_5function,#label_9{
+ color: #fff;
+}
+
+#label_5_score{
+	color: #fa428d;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+
+	color: #2a52be;
+    margin: 10 px 5 px 10 px 5 px;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu5{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu5:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu5:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QRadioButton {
+    color:                  white;
+}
+
+QRadioButton::indicator {
+    width:                  22 px;
+    height:                 22 px;
+    border-radius:          15px;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       #fa428d;
+    border:                 4px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:rgba(0, 0, 0, 0.0);
+    border:                 4px solid white;
+}
+
+QPushButton#restart5:enabled{
+   background-color: #ffd56b;
+   color: #ff7538;
+}
+QPushButton#restart5:enabled:hover {
+	background-color: #AAAAAA;
+    color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>9</number>
+        </property>
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Выбор существенных и фиктивных &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;переменных по известному вектору функции&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5function">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <property name="spacing">
+           <number>12</number>
+          </property>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButton_backtomenu5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>МЕНЮ</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>90</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="title">
+             <string>X2</string>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="spacing">
+              <number>9</number>
+             </property>
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButton_2_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Существенная</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_2_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Фиктивная</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QGroupBox" name="groupBox_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>90</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="title">
+             <string>X1</string>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <property name="spacing">
+              <number>9</number>
+             </property>
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButton_1_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Существенная</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_1_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Фиктивная</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>90</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="title">
+             <string>X5</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <property name="spacing">
+              <number>9</number>
+             </property>
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButton_5_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Существенная</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_5_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Фиктивная</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>90</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="title">
+             <string>X3</string>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="spacing">
+              <number>9</number>
+             </property>
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButton_3_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Существенная</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_3_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Фиктивная</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QGroupBox" name="groupBox_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>90</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>18</pointsize>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="title">
+             <string>X4</string>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <property name="spacing">
+              <number>9</number>
+             </property>
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButton_4_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Существенная</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_4_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>1</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Фиктивная</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="pushButton_start5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>OK</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="restart5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>ПРОДОЛЖИТЬ</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5_score">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>ANS</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_6">
+       <property name="styleSheet">
+        <string notr="true">#page_6 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+#lineEdit_6input{
+display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #18011b;
+}
+
+#label_6function{
+ color: #fff;
+}
+
+#label_6_ans{
+	color: #fa428d
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu6{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu6:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu6:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#pushButton{
+  background-color: #fa428d;
+  color: #fff;
+} 
+QPushButton#restart6:enabled{
+   background-color: #ffd56b;
+   color: #ff7538;
+}
+QPushButton#restart6:enabled:hover {
+	background-color: #AAAAAA;
+    color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Игра &amp;quot;Постройте ДНФ по заданной функции&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6function">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>ANS</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#fecd4f;&quot;&gt;Формат ввода: x1&amp;amp;-x2 v x1&amp;amp;-x3 v -x2&amp;amp;-x3 v -x1&amp;amp;x2&amp;amp;x3&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#fed263;&quot;&gt;Введите ДНФ функции и нажмите ОК&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <property name="horizontalSpacing">
+           <number>6</number>
+          </property>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_start6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  ОК  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_6input">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_backtomenu6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  МЕНЮ  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="restart6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>33</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>НОВАЯ ФУНКЦИЯ</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6_ans">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Text</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_7">
+       <property name="styleSheet">
+        <string notr="true">#page_7 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+#lineEdit_7input{
+display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #18011b;
+}
+
+#label_7_function{
+ color: #fff;
+}
+
+#label_7_ans{
+	color: #fa428d
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu7{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu7:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu7:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#pushButton{
+  background-color: #fa428d;
+  color: #fff;
+} 
+QPushButton#restart7:enabled{
+   background-color: #ffd56b;
+   color: #ff7538;
+}
+QPushButton#restart7:enabled:hover {
+	background-color: #AAAAAA;
+    color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Игра &amp;quot;Постройте КНФ по заданной функции&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_7_function">
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#fecd4f;&quot;&gt;Формат ввода: (x1vx2v-x3) &amp;amp; (-x1vx2v-x3) &amp;amp; (-x1v-x2v-x3)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#fed263;&quot;&gt;Введите КНФ функции и нажмите ОК&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_7input">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_start7">
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  ОК  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_backtomenu7">
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  МЕНЮ  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="restart7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>33</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>НОВАЯ ФУНКЦИЯ</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_7_ans">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Text&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_8">
+       <property name="font">
+        <font>
+         <family>XDRA Heavy</family>
+         <pointsize>26</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#page_8 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+#lineEdit_8input{
+display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #18011b;
+}
+
+#label_8_function{
+ color: #fff;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu8{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu8:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu8:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#pushButton{
+  background-color: #fa428d;
+  color: #fff;
+} 
+</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_11">
+        <item>
+         <widget class="QLabel" name="label_14">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Построение СДНФ по заданному вектору&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_8_function">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>28</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_16">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#fed263;&quot;&gt;Введите вектор функции и нажмите ОК&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_8input">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_start8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  ОК  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_backtomenu8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  МЕНЮ  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_9">
+       <property name="styleSheet">
+        <string notr="true">#page_9 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+#lineEdit_9input{
+display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #18011b;
+}
+
+#label_9_function{
+ color: #fff;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu9{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu9:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu9:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#pushButton{
+  background-color: #fa428d;
+  color: #fff;
+} 
+</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_12">
+        <item>
+         <widget class="QLabel" name="label_15">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Построение СКНФ по заданному вектору&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_9_function">
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>28</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_18">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#fed263;&quot;&gt;Введите вектор функции и нажмите ОК&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="lineEdit_9input">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_start9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  ОК  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_backtomenu9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  МЕНЮ  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_10">
+       <property name="styleSheet">
+        <string notr="true">#page_10 {
+	background-color: #18011b;
+	color: #fff;
+	background-image: url(:/images/1.png)
+}
+
+QGroupBox{
+	color: #fecd4f;
+	border: 4px solid white;
+}
+
+#label_10_function{
+ color: #fff;
+}
+
+#label_10_score{
+	color: #fa428d;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+
+	color: #2a52be;
+    margin: 10 px 5 px 10 px 5 px;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu10{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu10:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu10:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QCheckBox {
+    color:                  white;
+}
+
+QCheckBox::indicator {
+    width:                  22 px;
+    height:                 22 px;
+}
+
+QCheckBox::indicator:checked {
+    border:                 4px solid white;
+	background-color: #fa428d;
+}
+
+QCheckBox::indicator:unchecked {
+    border:                 4px solid white;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+QPushButton#restart10:enabled{
+   background-color: #ffd56b;
+   color: #ff7538;
+}
+QPushButton#restart10:enabled:hover {
+	background-color: #AAAAAA;
+    color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_13">
+        <item>
+         <widget class="QLabel" name="label_17">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Выберите замкнутые классы,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;к которым принадлежит функция&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_10_function">
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_11" rowstretch="0,0,0,0" columnstretch="0,0">
+          <property name="spacing">
+           <number>12</number>
+          </property>
+          <item row="1" column="1">
+           <widget class="QCheckBox" name="checkBox_10_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>69</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Линейная</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBox_10_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>69</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Монотонная</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBox_10_0">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>69</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Сохраняющая ноль</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QCheckBox" name="checkBox_10_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>69</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Сохранющая единицу    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_10_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>69</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Самодвойственная</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="restart10">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>ПРОДОЛЖИТЬ</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="pushButton_start10">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>ОК</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="pushButton_backtomenu10">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>МЕНЮ</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_10_score">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_11">
+       <property name="styleSheet">
+        <string notr="true">#page_11 {
+	background-color: #18011b;
+	color: #fff;
+	background-image: url(:/images/1.png)
+}
+
+QGroupBox{
+	color: #fecd4f;
+	border: 4px solid white;
+}
+
+#label_11_function{
+ color: #fff;
+}
+
+#label_11_score,#label_19{
+	color: #fa428d;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+
+	color: #2a52be;
+    margin: 10 px 5 px 10 px 5 px;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu11{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu11:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu11:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QRadioButton::indicator {
+    width:                  22 px;
+    height:                 22 px;
+    border-radius:          15px;
+	color: #fff;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       #fa428d;
+    border:                 4px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:rgba(0, 0, 0, 0.0);
+    border:                 4px solid white;
+}
+
+QCheckBox {
+    color:                  white;
+}
+
+QCheckBox::indicator {
+    width:                  22 px;
+    height:                 22 px;
+}
+
+QCheckBox::indicator:checked {
+    border:                 4px solid white;
+	background-color: #fa428d;
+}
+
+QCheckBox::indicator:unchecked {
+    border:                 4px solid white;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+QPushButton#restart11:enabled{
+   background-color: #ffd56b;
+   color: #ff7538;
+}
+QPushButton#restart11:enabled:hover {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+#radioButton_11_no,#radioButton_11_yes {
+	color: #fff;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <item>
+         <widget class="QLabel" name="label_19">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Определите, является ли полным набор функций&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_11_function">
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_start11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>ОК</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QCheckBox" name="checkBox_11_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Сохраняющий единицу</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_backtomenu11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>МЕНЮ</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QCheckBox" name="checkBox_11_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Линейный</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="restart11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>ПРОДОЛЖИТЬ</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" rowspan="2" colspan="2">
+           <widget class="QGroupBox" name="groupBox_11">
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Набор функций полный?</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <widget class="QRadioButton" name="radioButton_11_yes">
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>26</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Да</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_11_no">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>XDRA Heavy</family>
+                 <pointsize>26</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Нет</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QCheckBox" name="checkBox_11_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Монотонный</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QCheckBox" name="checkBox_11_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Самодвойственный</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QCheckBox" name="checkBox_11_0">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Сохраняющий ноль</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_11_score">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_12">
+       <property name="styleSheet">
+        <string notr="true">#page_12 {
+background-color: #18011b;
+color: #fff;
+background-image: url(:/images/1.png)
+}
+
+#lineEdit_12input{
+display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	color: #18011b;
+}
+
+#label_12_function{
+ color: #fff;
+}
+
+QPushButton {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	color: #2a52be;
+	background-color: #03e8fb;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+QPushButton:hover {
+  background-color: #ffd56b;
+  color: #ff7538;
+}
+
+QPushButton:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+
+QPushButton:enabled {
+	pointer-events: none;
+	opacity: 0;
+}
+
+QPushButton#pushButton_backtomenu12{
+  background-color: #ff6d69;
+  color: #fff;
+}
+QPushButton#pushButton_backtomenu12:hover{
+  background-color: #ff3c36;
+}
+QPushButton#pushButton_backtomenu12:hover:pressed {
+	background-color: #AAAAAA;
+    color: #fff;
+}
+QPushButton#pushButton{
+  background-color: #fa428d;
+  color: #fff;
+} 
+</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_15">
+        <item>
+         <widget class="QLabel" name="label_20">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;Построение минимального ДНФ,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#fa428d;&quot;&gt;по заданному вектору функции&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12_function">
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>28</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_22">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>XDRA Heavy</family>
+            <pointsize>26</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fecd4f;&quot;&gt;Введите вектор функции и нажмите ОК&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="0" column="0" alignment="Qt::AlignVCenter">
+           <widget class="QLineEdit" name="lineEdit_12input">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>86</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>28</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_start12">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  ОК  </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_backtomenu12">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>XDRA Heavy</family>
+              <pointsize>33</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  МЕНЮ  </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1365</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
